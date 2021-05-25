@@ -1,63 +1,32 @@
-html, body {
- margin: 0;
- padding: 0;
- }
-body {
- background-color: white; 
- font-family: Verdana, sans-serif; 
- font-size: 100%;
- }
-h1 {
- font-size: 200%; 
- color: navy; 
- text-align: center;
- }
-h2 {
- font-size: 150%; 
- color: red; 
- padding-left: 15px;
- }
-p,ul,li,td {
- color: black; 
- }
-a:link {
- color: green;
- text-decoration: underline;
- }
-a:visited {
- color: gray;
- }
-a:hover {
- color: red;
- text-decoration: none;
-}
-a:active, a:focus {
- color: red;
-}
-Code (X)HTML
-<h1>Titre principal</h1>
-
-<h2>Sous titre</h2>
-
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Duis eget ligula quis libero mollis dapibus.
-Suspendisse potenti. Nullam facilisis neque et sem. 
-Proin placerat adipiscing urna. Aenean sollicitudin. 
-Mauris lorem erat, fringilla quis, sagittis a, varius sed, nunc. 
-Pellentesque ligula. Nullam egestas eleifend turpis. Vivamus ac
-sapien. Sed venenatis, ligula ut scelerisque vehicula, 
-erat tellus euismod ipsum, eget faucibus tortor arcu et lectus.
-Vivamus vel purus. Fusce dignissim tortor quis diam elementum fermentum. 
-Mauris eleifend lorem vel arcu. Vivamus tempus
-faucibus lectus. Curabitur volutpat ornare mi. 
-Curabitur ac libero. Sed eu elit ac metus egestas iaculis.
-</p>
-
-<ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-</ul>
-
-<p><a href="http://css.mammoutland.net/">css.mammoutland.net/</a></p>
+  body {
+    padding-left: 11em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: purple;
+    background-color: #d8da3d }
+   ul.navbar {
+     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+   h1 {
+     font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+   ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: blue }
+  a:visited {
+    color: purple }
+  address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
